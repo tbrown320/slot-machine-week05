@@ -1,0 +1,31 @@
+#machine {
+    border: 1px solid black;
+    text-align: center;
+    width: 500px;
+    background-color: rgb(58, 183, 30);
+}
+
+.reels{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    /* border: 1px solid black; */
+}
+
+.reels section{
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20%;
+    width: 60px;
+    border-color: rgb(8, 6, 0);
+    
+}
+
+#machine p{
+    font-size: 25px;
+}
+
+#machine label, #machine input, #machine button{
+    font-size: 16px;
+}
