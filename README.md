@@ -1,24 +1,38 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Slot O'Matic
 
-### Goal: Build a Simple Slot Machine
+A simple slot machine: place a bet, pull the lever, and see if all three reels match.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+A small front-end exercise where everything runs in the browser — the balance is not saved anywhere, so reloading the page restarts with $1000.
 
-### How to submit your code for review:
+[Screenshot of Slot Machine](Slot-machine-screenshot.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## What it does
 
-Example:
+- Starts with a $1000 balance. Place a bet between $5 and $50 and click **Pull the Lever!**
+- Spins three reels, each landing on one of five symbols: bell, cherry, 7, money bag, or crown.
+- Three matching symbols wins and the balance goes up; anything else loses the bet, and the balance goes down.
+- Bets outside $5–$50, or more than your balance, are rejected with a message.
+- If the balance hits $0, the game tells you you're out of money — reload the page to play again.
+
+## Tech stack
+
+- HTML, CSS, JavaScript (no build step, no server, no storage)
+
+## How to run it
+
+Open `index.html` in a browser and place a bet.
+
+## Project structure
+
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+index.html              - balance, bet input, lever button, and the three reels
+css/style.css           - page styling
+css/normalize.css
+css/reset.css
+js/main.js              - bet checks, reel spins, win/lose, and balance updates
+README-slotmachine.md   - the original rules notes for the game
 ```
+
+---
+
+Thay Brown — thaybrown22@gmail.com · https://thaythecoder.netlify.app · https://github.com/tbrown320 · https://www.linkedin.com/in/thaybrown
