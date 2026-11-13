@@ -4,7 +4,7 @@ A simple slot machine: place a bet, pull the lever, and see if all three reels m
 
 A small front-end exercise where everything runs in the browser — the balance is not saved anywhere, so reloading the page restarts with $1000.
 
-[Screenshot of Slot Machine](Slot-machine-screenshot.png)
+![Screenshot of Slot Machine](Slot-machine-screenshot.png)
 
 ## What it does
 
